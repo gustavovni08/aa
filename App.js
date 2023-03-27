@@ -15,12 +15,13 @@ import { initializeApp } from 'firebase/app';
 const Stack = createStackNavigator();
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCX48nDF7cml6wcB4lPz3TxsG_55dQOBUo",
-  authDomain: "oxelab-team.firebaseapp.com",
-  projectId: "oxelab-team",
-  storageBucket: "oxelab-team.appspot.com",
-  messagingSenderId: "86784909294",
-  appId: "1:86784909294:web:6a8c682a314cf4d12878ff"
+  apiKey: "AIzaSyCuUYx5wG6MW7qMP1Z5ZkvjuY8WrdIaQ8w",
+  authDomain: "fbexe-226a8.firebaseapp.com",
+  projectId: "fbexe-226a8",
+  storageBucket: "fbexe-226a8.appspot.com",
+  messagingSenderId: "149574184366",
+  appId: "1:149574184366:web:d663e870e374dd85c0ec3f",
+  measurementId: "G-1668HQLPNW"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
@@ -42,7 +43,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#808080',
     alignItems: 'center',
     justifyContent: 'center',
   },
